@@ -1,0 +1,13 @@
+dist/
+outputs/
+node_modules/
+.sites-runtime/
+.wrangler/
+.env*
+work/
+
+# Local runtime secrets and generated files
+!.env.example
+.dev.vars*
+.DS_Store
+Thumbs.db
